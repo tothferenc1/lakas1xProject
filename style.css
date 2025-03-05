@@ -59,7 +59,8 @@ body {
 }
 
 .rovid h3 {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 5px; 
 }
 
 h1 {
