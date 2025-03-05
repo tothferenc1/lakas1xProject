@@ -1,5 +1,67 @@
-.first-container {
+body {
+    background-color: gainsboro;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.container {
     background: whitesmoke;
     border-radius: 20px;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.lakások {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lakások th,
+.lakások td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 6px;
+}
+
+.lakások th {
+    background-color: darkgrey;
+}
+
+.lakások tr:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.osszefoglalas {
+    display: flex;
+}
+
+.osszefoglalas ul,
+.osszefoglalas ol {
+    list-style: square;
+    text-shadow: 1px 2px 3px;
+}
+
+.osszefoglalas h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rovid h3 {
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+h1 {
+    text-align: center;
 }
