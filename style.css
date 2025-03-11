@@ -1,7 +1,11 @@
+
+
+
 body {
     background-color: gainsboro;
     margin: 20px;
     border-radius: 10px;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -51,18 +55,70 @@ body {
 .osszefoglalas ul,
 .osszefoglalas ol {
     list-style: square;
-    text-shadow: 1px 2px 3px;
 }
 
 .osszefoglalas h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.rovid h3 {
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 1px 1px 5px; 
+    text-shadow: 0 9px 5px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     text-align: center;
 }
+
+
+
+
+
+/* Gyakorlás */
+
+
+
+
+
+.second-container, .second-container h1 {
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.info2 {
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.gyak {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gyak th,
+.gyak-tab td {
+    border: 1px ridge #818181;
+    text-align: center;
+    padding: 6px;
+    cursor: default;
+}
+
+.gyak td:hover {
+    background-color: rgba(255, 255, 255, 0.568);
+    transition: 0.5s;
+    transition: width 2s, height 4s;
+}
+
+.gyak th {
+    background-color: rgb(197, 197, 197);
+}
+
+.gyak tr:hover {
+    background-color: rgba(209, 209, 209, 0.568);
+    transition: 0.3s;
+}
+
+.other {
+    display: flex;
+}
+
+
