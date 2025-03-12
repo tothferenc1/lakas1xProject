@@ -1,0 +1,21 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(135,135,135,0.7287289915966386) 0%, rgba(135,135,135,1) 100%);
+    text-align: center;
+}
+
+.back-btn {
+    background-color: rgb(76, 133, 184);
+    color: white;
+    border: none;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: rgba(104, 150, 190, 0.849);
+    transition: .3s;
+}
